@@ -1,0 +1,340 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+/*MY CODE*/
+
+* {
+    text-decoration: none;
+
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    right:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(214, 213, 213);
+
+
+}
+
+
+header a .bm-logo {
+    width: 70px;
+    height: 70px;
+    margin-top: -45px;
+    padding-left: 30px;
+    object-fit: cover;
+    
+
+    
+}
+
+header a .youtube-icon {
+
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-top: -30px;
+    padding-right: 20px;
+
+
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding-top: 35px;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 17px;
+
+
+}
+
+header nav ul li a {
+    font-family: 'Noto Serif';
+    font-size: 25px;
+    color: #000;
+    display: block;
+    display: inline-block;
+}
+
+
+/*banner*/
+
+
+.banner {
+    width: 100%;
+    height: 160px;
+    background-color: rgb(229, 88, 18);
+    padding-top: 100px;
+}
+
+
+
+
+.banner h3 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: Ubuntu;
+    font-size: 50px;
+}
+
+
+.banner p {
+    font-family: Mukta;
+    font-size: 35px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+/* main */
+.container {
+    width: 550px;
+    height:580px;
+    margin: 0 auto;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+    #message {
+        max-height: 250px;
+    }
+
+
+
+
+
+
+/*foteer*/
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+}
+
+footer .footer-icons-ul li a .github-icon{
+    width:40px;
+
+}
+footer .footer-icons-ul li a .paypal-icon{
+    width:40px;
+    
+}
+
+
+footer .footer-icons-ul li a .youtube-icon{
+    width:40px;
+}
+
+footer .footer-icons-ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+footer .footer-icons-ul li  {
+    margin-top: 15px;
+
+}
+
+/*fotter text*/
+
+footer .text-footer-ul li p {
+    display: block;
+    color: rgb(250,250,250);
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+
+footer .text-footer-ul {
+    margin-top: 10px;
+    float: left;
+    list-style: none;
+}
+
+
+
+
+footer .text-footer-ul2 {
+
+    float: left;
+    color: white;
+    list-style: none;
+    font-size: 17px;
+    padding-top: 13px;
+    padding-left: 25px;
+
+
+}
+
+footer .text-footer-ul2 li  {
+    list-style: none;
+    margin-top: 13px;
+    text-transform: uppercase;
+}
+
+footer .text-footer-ul2 li a {
+    color: white;
+}
+
+.© {
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+
+}
+
+
+
+
+
+
