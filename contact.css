@@ -241,6 +241,7 @@ input[type=text], select, textarea {
   }
 
     #message {
+        height: 200;
         max-height: 250px;
     }
 
