@@ -80,7 +80,7 @@
 
         <main>
             <div class="container">
-				<form action="https://formsubmit.co/ed3f060bf8fafd645b469022cbcef303" class="contact-form" method="POST">
+				<form action="https://formsubmit.co/ed3f060bf8fafd645b469022cbcef303" class="contact-form" method="POST" onsubmit="Checkfiles(this)" enctype="multipart/form-data">
 					
 				   <!-- honeypot -->
 				  <input type="text" name="_honey" style="display:none">
@@ -183,23 +183,22 @@
 	    </footer>
 
 	</body>
-	<script type="text/javascript">
-	    function Checkfiles()
-	    {
-		var fup = document.getElementById('filename');
-		var fileName = fup.value;
-		var ext = fileName.substring(fileName.lastIndexOf('.') + 1);
+<script type="text/javascript">
+    function Checkfiles()
+    {
+        var fup = document.getElementById('filename');
+        var fileName = fup.value;
+        var ext = fileName.substring(fileName.lastIndexOf('.') + 1);
 
-	    if(ext =="py")
-	    {
-		alert("Yay");
-					return true;
-	    }
-	    else
-	    {
-		alert("Upload Gif Images only");
-		return false;
-	    }
-	    }
-	</script>
+				if(ext =="py")
+				{
+						return true;
+				}
+				else
+				{
+						alert("Upload Gif Images only");
+						return false;
+				}
+    }
+</script>
 </html>
