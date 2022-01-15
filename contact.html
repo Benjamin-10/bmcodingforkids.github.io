@@ -90,22 +90,28 @@
 				  <input type="hidden" name="_captcha" value="false">
 			  
 				  <label for="name">Name</label>
-				  <input type="text" id="name" name="name" placeholder="Your name.." required>
+				  <input type="text" id="name" name="name" placeholder="Your Name" required>
 			  
 				  <label for="email">Email</label>
-				  <input type="text" id="email" name="email" placeholder="Your email" required>
+				  <input type="text" id="email" name="email" placeholder="Your Email" required>
 					
 				  <input type="hidden" name="_template" value="box">
-
-
+					
+				  <label for="Tutorial">Tutorial</label>
+				  <select name="Tutorial" required>
+					<option value="">Select</option>
+					<option value="tutorial-1">1.print function and variables pt.1</option>
+					<option value="tutorial-2">2.print function and variables pt.2</option>
+					<option value="tutorial-3">3.input function</option>
+					<option value="tutorial-4">4.data types</option>
 			  
 				  <label for="Subject">Error</label>
-				  <input type="text" id="subject" name="message" placeholder="Whats your error" required>
+				  <input type="text" id="subject" name="error" placeholder="Whats your error" required>
 					
-				  <input type="hidden" name="_subject" value="New submission! - Help">
+				  <input type="hidden" name="_subject" value="New submission! - from BM coding for kids">
 		
 			  
-				  <label for="subject">Code</label>
+				  <label for="Code">Code</label>
 <!-- 				  <textarea id="message" name="message" placeholder="Paste you code in here" required></textarea> -->
 				  <input id="filename" type="file" name="attachment" accept=".py" required>
 
