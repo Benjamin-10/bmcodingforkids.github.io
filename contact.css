@@ -334,7 +334,23 @@ footer .text-footer-ul2 li a {
 
 }
 
+input[type=file]::file-selector-button {
+			background-color: #d98327;
+			width: 120px;
+			height:30px;
+            border-radius: 7px;
+            border-color: orange;
+            z-index: 100;
 
+        }
+        input span {
+            font-size: 20px;
+            
+        }
+
+		input[type=file]::file-selector-button:hover {
+            background-color: #f29736;
+		}
 
 
 
