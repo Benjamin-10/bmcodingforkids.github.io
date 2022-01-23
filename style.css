@@ -241,6 +241,7 @@ section a .all-tutorials {
     margin: 0 auto;
     width: 250px;
     height:75px;
+    border-radius: 10px;
 
     background-color: rgb(240, 120, 56);
 }
@@ -249,6 +250,7 @@ section a .all-tutorials {
 
 section a .all-tutorials:hover{
     background-color: rgb(241, 148, 29);
+    border-radius: 10px;
 }
 
 section a .all-tutorials p  {
