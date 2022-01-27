@@ -1,3 +1,5 @@
+// Javascript
+
 let subscribers = document.querySelector("#subscriberValue");
 let views = document.querySelector("#viewsValue");
 let videos = document.querySelector("#totalVideos");
